@@ -1,0 +1,42 @@
+{% include base.html %}
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  <script type="text/javascript">
+  $(document).ready( function () {
+    $('#table_id').DataTable({
+      paging: false
+    }
+      );
+
+
+
+} );
+  </script>
+
+    {% include menu.html %}
+    {% include header.html %}
+
+    <div class="grid">
+      <div class="col_12">
+      <form>
+        <input id="text2" type="text" placeholder="Search" />
+      </form> 
+        <div class="tab-content">
+        {{ content }}
+      </div>
+       
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+
+
+  </body>
+
+</html>
