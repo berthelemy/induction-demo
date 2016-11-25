@@ -3,21 +3,20 @@ layout: default
 ---
 
 <div class="home">
+<form class="vertical">
+  <div class="col_2"></div>
+  <div id="search" class="col_8">
+        <input id="text3" type="text" placeholder="Search" />   
+  </div>
+  <div class="col_2"></div>
+</form>
+<div id="video" class="col_12">
 
-  <h1 class="page-heading">Posts</h1>
+  <a class="lightbox iframe" href="https://www.youtube.com/embed/OYryBDj3kNA?autoplay=1">
+  <img width="400" src="{{ "/assets/video-placeholder.png" | prepend: site.baseurl }}" alt="Video title" /></a>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="button" class="col_12">
+  <button class="red center">Get started...</button>
+</div>
 </div>
