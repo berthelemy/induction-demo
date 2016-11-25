@@ -1,0 +1,12 @@
+.menu {
+    margin-left: 40px;
+    padding-right: 15%;
+    z-index: 1;
+}
+
+.points {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #red;
+    background-color: #ffaaaa;
+
+}

@@ -1,17 +1,18 @@
 <header>
-<nav class="navbar">
+<nav class="right">
 {% if page.url == "/index.html" %}
    	<form style="float:right; padding: 1em;">
    		<input id="text2" type="text" placeholder="Search" />
 	</form> 
 {% endif %}  
   
-  
+   
   <ul class="menu">
 
-  <li><a href="">Mark</i></a>
+  <li class="left"><a href="">Mark</i></a><span class="points">1</span>
   	<ul>
   		<li><a href="#">Edit profile</a></li>
+      <li><a href="#">Scoreboard</a></li>
   		<li><a href="#">Logout</a></li>
   	</ul>
   	</li>
@@ -22,15 +23,13 @@
   
 
 
-<div class="callout callout-top clearfix">
-	<div class="col_2">
-		<img class="align-left" src="{{ "/assets/logo-placeholder.png" | prepend: site.baseurl }}" alt="BCS logo">
-	</div>
+<!-- <div class="callout callout-top clearfix"> -->
+	<div class="col_2"></div>
 	<div class="col_8">
 		<h1>{{ site.title }}</h1>
 	</div>
 
-</div>
+<!-- </div> -->
 
 
 </header>
