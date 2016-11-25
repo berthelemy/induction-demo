@@ -1,0 +1,27 @@
+{% include base.html %}
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  <script type="text/javascript">
+  $(document).ready( function () {
+    $('#table_id').DataTable({
+      paging: false
+    }
+      );
+
+
+
+} );
+  </script>
+
+  <div class="col_12">
+    {{ content }}
+  </div>
+
+  </body>
+
+</html>

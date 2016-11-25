@@ -1,33 +1,38 @@
 <header>
 <nav class="right">
-{% if page.url == "/index.html" %}
-   	<form style="float:right; padding: 1em;">
-   		<input id="text2" type="text" placeholder="Search" />
-	</form> 
-{% endif %}  
+ 
   
    
   <ul class="menu">
 
-  <li class="left"><a href="">Mark</i></a><span class="points">1</span>
+  <li class="left"><a href="">Mark</i></a><span class="points">6</span>
   	<ul>
   		<li><a href="#">Edit profile</a></li>
-      <li><a href="#">Scoreboard</a></li>
+      <li><a href="achievements.html">Scoreboard</a></li>
   		<li><a href="#">Logout</a></li>
   	</ul>
   	</li>
+    {% if page.url != "/" %}
+    <li class="divider">&nbsp;&nbsp;</li>
+    <li><form id="search">
+      <input id="text2" type="text" placeholder="Search" />
+  </form></li>
+{% endif %} 
   </ul>
 
 </nav>
 
-  
 
 
 <!-- <div class="callout callout-top clearfix"> -->
-	<div class="col_2"></div>
-	<div class="col_8">
-		<h1>{{ site.title }}</h1>
+	<div class="col_1"></div>
+	<div class="col_11">
+		<h1><a href="/"<i class="fa fa-home"></i></a> {{ site.title }}</h1>
 	</div>
+  
+  
+
+
 
 <!-- </div> -->
 
