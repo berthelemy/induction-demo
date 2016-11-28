@@ -22,3 +22,7 @@
     text-align: center;
     color: #D4AF37;
 }
+
+form#search {
+    margin-top: 10px;
+}

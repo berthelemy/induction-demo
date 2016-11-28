@@ -1,28 +1,29 @@
 <header>
-<nav class="right">
- 
-  
-   
+<nav class="right"> 
   <ul class="menu">
-
-  <li class="left"><a href="">Mark</i></a><span class="points">6</span>
-  	<ul>
-  		<li><a href="#">Edit profile</a></li>
-      <li><a href="achievements.html">Scoreboard</a></li>
-  		<li><a href="#">Logout</a></li>
-  	</ul>
+    <li class="left"><a href="">Mark</i></a>
+    	<ul>
+    		<li><a href="#">Edit profile</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+    		<li><a href="#">Logout</a></li>
+    	</ul>
   	</li>
-    {% if page.url != "/" %}
-    <li class="divider">&nbsp;&nbsp;</li>
-    <li><form id="search">
-      <input id="text2" type="text" placeholder="Search" />
-  </form></li>
-{% endif %} 
+    <li class="left">&nbsp;<button class="tooltip medium orange pill" data-content="#tooltipcontentID">7</button>&nbsp;&nbsp;</li>
+    
   </ul>
 
 </nav>
+{% if page.url != "/" %}
+  <form class="center" id="search">
+      <input id="text2" type="text" placeholder="Search" />
+  </form>
+{% endif %} 
 
-
+<!-- Points rollover -->
+<div class="tooltip-content" id="tooltipcontentID"><h5>Points</h5>
+<p>You will collect points as you do activities within this site.</p>
+<p>Some activities give you more points than others!</p>
+</div>
 
 <!-- <div class="callout callout-top clearfix"> -->
 	<div class="col_1"></div>
