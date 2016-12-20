@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% for item in site.systems_info %}
+    <div id="{{ item.title | url_encode | downcase }}">
+    <a name="{{ item.title | url_encode | downcase }}"></a><h4>{{ item.title }}</h4>
+    {{ item.content }}
+    </div>
+{% endfor %}

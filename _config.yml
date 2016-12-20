@@ -21,3 +21,7 @@ markdown: kramdown
 post_dirs: false
 
 category-list: ['Strategy and architecture', 'Change and transformation', 'Development and implementation', 'Delivery and operation', 'Skills and quality','Relationships and engagement']
+
+collections:
+ systems_info:
+    output: true

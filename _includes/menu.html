@@ -21,10 +21,11 @@
     
     <li><a href="#"><i class="fa fa-inbox"></i> Systems and processes</a>
         <ul>
-            <li><a href="#"><i class="fa fa-inbox"></i> IT setup</a></li>
-            <li><a href="#"><i class="fa fa-inbox"></i> Expenses and salary</a></li>
-            <li><a href="#"><i class="fa fa-inbox"></i> Leave and absences</a></li>
-            <li><a href="#"><i class="fa fa-inbox"></i> Communication</a></li>
+
+            {% for item in site.systems_info %}
+            <li><a href="/systems#{{ item.title | url_encode | downcase }}">{{ item.title }}</li></a>
+            {% endfor %}
+
         </ul>
     </li>
     

@@ -3,20 +3,192 @@
 	{
 		"selected_items":
 		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-size"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"contents": "---\nlayout: default\ntitle: Mission 1\n---\n<ul class=\"tabs left\">\n<li><a href=\"#task1\">Task 1</a></li>\n<li><a href=\"#task2\">Task 2</a></li>\n<li><a href=\"#task3\">Task 3</a></li>\n</ul>\n\n<div id=\"task1\" class=\"tab-content\">\n<div class=\"col_6\">\n    <h4>Things to be excited about</h4>\n    <a class=\"lightbox iframe\" href=\"https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1\"><img width=\"80%\" src=\"{{ \"assets/video-placeholder-black.png\" | prepend: site.baseurl }}\" alt=\"Video placeholder\" /></a>\n</div>\n<div class=\"col_6\">\n    <h4>Your key activities in day 1</h4>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/induction-routemap.html\" | prepend: site.baseurl }}\"> Induction routemap</a></p>\n    <p><i class=\"fa fa-check-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/it-setup.html\" | prepend: site.baseurl }}\"> Getting your IT set up</a></p>  \n</div>\n</div>\n<div id=\"task2\" class=\"tab-content\">\n    <div class=\"col_6\">\n    <h4>Things to be excited about</h4>\n    <a class=\"lightbox iframe\" href=\"https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1\"><img width=\"80%\" src=\"{{ \"assets/video-placeholder-black.png\" | prepend: site.baseurl }}\" alt=\"Video placeholder\" /></a>\n    </div>\n    <div class=\"col_6\">\n    <h4>Your key activities in week 1</h4>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/induction-routemap.html\" | prepend: site.baseurl }}\"> Tips for setting your objectives</a></p>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/it-setup.html\" | prepend: site.baseurl }}\"> Objectives template</a></p>\n</div>\n\n</div>\n\n<div id=\"task3\" class=\"tab-content\">\n    <div class=\"col_6\">\n    <h4>Things to be excited about</h4>\n    <a class=\"lightbox iframe\" href=\"https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1\"><img width=\"80%\" src=\"{{ \"assets/video-placeholder-black.png\" | prepend: site.baseurl }}\" alt=\"Video placeholder\" /></a>\n    </div>\n    <div class=\"col_6\">\n    <h4>Your key activities in month 1</h4>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/induction-routemap.html\" | prepend: site.baseurl }}\"> Making the most of your network</a></p>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/it-setup.html\" | prepend: site.baseurl }}\"> Requesting informal feedback</a></p>\n</div>\n</div>\n<div id=\"month3\" class=\"tab-content\">\n<div class=\"col_6\">\n    <h4>Things to be excited about</h4>\n    <a class=\"lightbox iframe\" href=\"https://www.youtube.com/embed/NpEaa2P7qZI?autoplay=1\"><img width=\"80%\" src=\"{{ \"assets/video-placeholder-black.png\" | prepend: site.baseurl }}\" alt=\"Video placeholder\" /></a>\n    </div>\n    <div class=\"col_6\">\n    <h4>Your key activities in month 3</h4>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/induction-routemap.html\" | prepend: site.baseurl }}\"> Finding a mentor</a></p>\n    <p><i class=\"fa fa-square-o\"></i><a class=\"lightbox iframe\" href=\"{{ \"100days/it-setup.html\" | prepend: site.baseurl }}\"> The Careers portal</a></p>\n</div>\n</div>\n\n\n\n\n\n\n",
+			"file": "mission1.html",
+			"file_size": 3108,
+			"file_write_time": 1480154579000000,
+			"settings":
+			{
+				"buffer_size": 3108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/lightbox.html",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 190 files for \"navbar\"\n\n/Users/markberthelemy/Documents/Code/induction-demo/_includes/header.html:\n    1  <header>\n    2: <nav class=\"navbar\">\n    3  {% if page.url == \"/index.html\" %}\n    4     	<form style=\"float:right; padding: 1em;\">\n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/css/style.css:\n   79  \n   80  /* NAV BAR*/\n   81: .navbar{\n   82  position:fixed;\n   83  top:0;\n   ..\n   90  }\n   91  \n   92: 	.navbar #logo{\n   93  	position:absolute;\n   94  	top:0;\n   ..\n  100  	}\n  101  \n  102: 	.navbar span{\n  103  	color:#86dc00;\n  104  	}\n  105  \n  106  \n  107: 	.navbar ul{\n  108  	display:inline-block;\n  109  	margin:0;\n  ...\n  111  	}\n  112  \n  113: 		.navbar li{\n  114  		margin:0;\n  115  		padding:0;\n  ...\n  118  		}\n  119  \n  120: 		.navbar li a{\n  121  		display:inline-block;\n  122  		color:#efefef;\n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/elements.html:\n   12  </head><body>\n   13  <!-- ===================================== END HEADER ===================================== -->\n   14: <nav class=\"navbar\">\n   15  <a class=\"hide-phone\" id=\"logo\" href=\"http://www.99lime.com\"><i class=\"fa fa-angle-right\"></i> 99<span>Lime</span></a>\n   16  <ul>\n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/index.html:\n   69  </div>\n   70      <header>\n   71: <nav class=\"navbar\">\n   72    \n   73    \n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/jekyll/update/2016/04/14/welcome-to-jekyll.html:\n   68  </div>\n   69      <header>\n   70: <nav class=\"navbar\">\n   71    \n   72    \n\n/Users/markberthelemy/Documents/Code/induction-demo/css/style.css:\n   79  \n   80  /* NAV BAR*/\n   81: .navbar{\n   82  position:fixed;\n   83  top:0;\n   ..\n   90  }\n   91  \n   92: 	.navbar #logo{\n   93  	position:absolute;\n   94  	top:0;\n   ..\n  100  	}\n  101  \n  102: 	.navbar span{\n  103  	color:#86dc00;\n  104  	}\n  105  \n  106  \n  107: 	.navbar ul{\n  108  	display:inline-block;\n  109  	margin:0;\n  ...\n  111  	}\n  112  \n  113: 		.navbar li{\n  114  		margin:0;\n  115  		padding:0;\n  ...\n  118  		}\n  119  \n  120: 		.navbar li a{\n  121  		display:inline-block;\n  122  		color:#efefef;\n\n/Users/markberthelemy/Documents/Code/induction-demo/elements.html:\n   12  </head><body>\n   13  <!-- ===================================== END HEADER ===================================== -->\n   14: <nav class=\"navbar\">\n   15  <a class=\"hide-phone\" id=\"logo\" href=\"http://www.99lime.com\"><i class=\"fa fa-angle-right\"></i> 99<span>Lime</span></a>\n   16  <ul>\n\n17 matches across 7 files\n\n\nSearching 190 files for \"menu-content\"\n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/css/menu.css:\n   19      }\n   20      \n   21:     [class^=\"menu-edge\"] .menu-content{\n   22      -moz-transition:    all 0.5s ease;\n   23      -webkit-transition: all 0.5s ease;\n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/js/menu.js:\n   11      \n   12      // int setup\n   13:     menuEdge.wrapInner('<div class=\"menu-content\"></div>')\n   14      .append('<i class=\"fa fa-bars\"></i>');\n   15      \n\n/Users/markberthelemy/Documents/Code/induction-demo/_site/menu.html:\n   39  	}\n   40  	\n   41: 	[class^=\"menu-edge\"] .menu-content{\n   42  	-moz-transition: 	all 0.5s ease;\n   43  	-webkit-transition: all 0.5s ease;\n   ..\n   83  	}\n   84  	\n   85: 	.menu-edge-top .menu-content{\n   86  	position:relative;\n   87  	margin-top:-100%;\n   ..\n   95  	}\n   96  	\n   97: 	.menu-edge-top.open .menu-content{\n   98  	margin-top:0;\n   99  	}\n  ...\n  137  	}\n  138  	\n  139: 	.menu-edge-bottom .menu-content{\n  140  	position:relative;\n  141  	margin-bottom:-100%;\n  142  	}\n  143  	\n  144: 	.menu-edge-bottom.open .menu-content{\n  145  	position:relative;\n  146  	margin-bottom:0%;\n  ...\n  252  	\n  253  	// int setup\n  254: 	menuEdge.wrapInner('<div class=\"menu-content\"></div>')\n  255  	.append('<i class=\"fa fa-bars\"></i>');\n  256  	\n\n/Users/markberthelemy/Documents/Code/induction-demo/css/menu.css:\n   19      }\n   20      \n   21:     [class^=\"menu-edge\"] .menu-content{\n   22      -moz-transition:    all 0.5s ease;\n   23      -webkit-transition: all 0.5s ease;\n\n/Users/markberthelemy/Documents/Code/induction-demo/js/menu.js:\n   11      \n   12      // int setup\n   13:     menuEdge.wrapInner('<div class=\"menu-content\"></div>')\n   14      .append('<i class=\"fa fa-bars\"></i>');\n   15      \n\n/Users/markberthelemy/Documents/Code/induction-demo/menu.html:\n   39  	}\n   40  	\n   41: 	[class^=\"menu-edge\"] .menu-content{\n   42  	-moz-transition: 	all 0.5s ease;\n   43  	-webkit-transition: all 0.5s ease;\n   ..\n   83  	}\n   84  	\n   85: 	.menu-edge-top .menu-content{\n   86  	position:relative;\n   87  	margin-top:-100%;\n   ..\n   95  	}\n   96  	\n   97: 	.menu-edge-top.open .menu-content{\n   98  	margin-top:0;\n   99  	}\n  ...\n  137  	}\n  138  	\n  139: 	.menu-edge-bottom .menu-content{\n  140  	position:relative;\n  141  	margin-bottom:-100%;\n  142  	}\n  143  	\n  144: 	.menu-edge-bottom.open .menu-content{\n  145  	position:relative;\n  146  	margin-bottom:0%;\n  ...\n  252  	\n  253  	// int setup\n  254: 	menuEdge.wrapInner('<div class=\"menu-content\"></div>')\n  255  	.append('<i class=\"fa fa-bars\"></i>');\n  256  	\n\n16 matches across 6 files\n",
+			"settings":
+			{
+				"buffer_size": 5170,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 1063,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/overrides.css",
+			"settings":
+			{
+				"buffer_size": 465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 971,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "systems/index.html",
+			"settings":
+			{
+				"buffer_size": 247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "achievements.html",
+			"settings":
+			{
+				"buffer_size": 896,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "100days.html",
+			"settings":
+			{
+				"buffer_size": 2788,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "100days/induction-routemap.html",
+			"settings":
+			{
+				"buffer_size": 459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/menu.html",
+			"settings":
+			{
+				"buffer_size": 1533,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "100days/index.html",
+			"settings":
+			{
+				"buffer_size": 2817,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_systems-info/it-setup.html",
+			"settings":
+			{
+				"buffer_size": 431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_systems_info/expenses.html",
+			"settings":
+			{
+				"buffer_size": 428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_systems_info/communication.html",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "missions/mission1.html",
+			"settings":
+			{
+				"buffer_size": 2661,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -24,10 +196,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
-		"history":
-		[
-		]
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -38,12 +207,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/markberthelemy/Documents/Code/induction-demo"
-	],
 	"file_history":
 	[
+		"/Users/markberthelemy/Documents/Code/induction-demo/_systems-info/it-setup.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/missions/mission1.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/systems/it-setup.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/leaderboard.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/_layouts/leaderboard-table.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/_includes/menu.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/_includes/head.html",
+		"/Users/markberthelemy/Documents/Code/induction-demo/js/menu.js",
+		"/Users/markberthelemy/Documents/Code/induction-demo/_sass/overrides.css",
+		"/Users/markberthelemy/Documents/Code/induction-demo/_sass/overrides.scss",
 		"/usr/share/mime/packages/freedesktop.org.xml",
 		"/home/markberthelemy/temp/test-users.csv"
 	],
@@ -53,9 +228,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
+			"/Users/markberthelemy/Documents/Code/induction-demo"
 		]
 	},
 	"find_state":
@@ -63,6 +239,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"kk",
+			"2",
+			".menu",
+			"menu",
+			"menu-content",
+			"navbar"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -80,8 +263,694 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "mission1.html",
+					"settings":
+					{
+						"buffer_size": 3108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1654,
+								1654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 217.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/lightbox.html",
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_includes/header.html",
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 5170,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										144,
+										150
+									],
+									[
+										358,
+										364
+									],
+									[
+										435,
+										441
+									],
+									[
+										524,
+										530
+									],
+									[
+										595,
+										601
+									],
+									[
+										688,
+										694
+									],
+									[
+										773,
+										779
+									],
+									[
+										1058,
+										1064
+									],
+									[
+										1329,
+										1335
+									],
+									[
+										1519,
+										1525
+									],
+									[
+										1652,
+										1658
+									],
+									[
+										1729,
+										1735
+									],
+									[
+										1818,
+										1824
+									],
+									[
+										1889,
+										1895
+									],
+									[
+										1982,
+										1988
+									],
+									[
+										2067,
+										2073
+									],
+									[
+										2346,
+										2352
+									],
+									[
+										2692,
+										2704
+									],
+									[
+										2948,
+										2960
+									],
+									[
+										3152,
+										3164
+									],
+									[
+										3299,
+										3311
+									],
+									[
+										3420,
+										3432
+									],
+									[
+										3518,
+										3530
+									],
+									[
+										3639,
+										3651
+									],
+									[
+										3782,
+										3794
+									],
+									[
+										3986,
+										3998
+									],
+									[
+										4236,
+										4248
+									],
+									[
+										4434,
+										4446
+									],
+									[
+										4581,
+										4593
+									],
+									[
+										4702,
+										4714
+									],
+									[
+										4800,
+										4812
+									],
+									[
+										4921,
+										4933
+									],
+									[
+										5064,
+										5076
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2522,
+								2522
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3435.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/main.scss",
+					"settings":
+					{
+						"buffer_size": 1063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1060,
+								1060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 493.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/overrides.css",
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "systems/index.html",
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "achievements.html",
+					"settings":
+					{
+						"buffer_size": 896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "100days.html",
+					"settings":
+					{
+						"buffer_size": 2788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2381,
+								2381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 999.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "100days/induction-routemap.html",
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 185.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_includes/menu.html",
+					"settings":
+					{
+						"buffer_size": 1533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								1078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 259.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "100days/index.html",
+					"settings":
+					{
+						"buffer_size": 2817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								770,
+								770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "_systems-info/it-setup.html",
+					"settings":
+					{
+						"buffer_size": 431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "_systems_info/expenses.html",
+					"settings":
+					{
+						"buffer_size": 428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "_systems_info/communication.html",
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "missions/mission1.html",
+					"settings":
+					{
+						"buffer_size": 2661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								662,
+								662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -91,7 +960,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -120,8 +989,6 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
-	"project": "induction-demo.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -130,7 +997,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -139,32 +1005,15 @@
 	"select_project":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
-	},
-	"select_symbol":
-	{
-		"height": 0.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 0.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"side_bar_width": 258.0,
+	"status_bar_visible": true
 }
